@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="205.638" tests="24" skipped="0" failures="14" errors="0">
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.1" time="10.429">
+<system-out><![CDATA[
+Given Navigate to the url by launching the browser..........................passed
+When Click on Services......................................................passed
+And Verify the presence of "Mini" link......................................passed
+And Verify the "Mini" label.................................................passed
+And Click on "Mini" cab type link...........................................passed
+Then Verify the details displayed for "Mini"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.2" time="7.604">
+<system-out><![CDATA[
+Given Navigate to the url by launching the browser..........................passed
+When Click on Services......................................................passed
+And Verify the presence of "Micro" link.....................................passed
+And Verify the "Micro" label................................................passed
+And Click on "Micro" cab type link..........................................passed
+Then Verify the details displayed for "Micro"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.3" time="7.231">
+<system-out><![CDATA[
+Given Navigate to the url by launching the browser..........................passed
+When Click on Services......................................................passed
+And Verify the presence of "Sedan" link.....................................passed
+And Verify the "Sedan" label................................................passed
+And Click on "Sedan" cab type link..........................................passed
+Then Verify the details displayed for "Sedan"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.4" time="7.468">
+<system-out><![CDATA[
+Given Navigate to the url by launching the browser..........................passed
+When Click on Services......................................................passed
+And Verify the presence of "Suv" link.......................................passed
+And Verify the "Suv" label..................................................passed
+And Click on "Suv" cab type link............................................passed
+Then Verify the details displayed for "Suv".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Enter valid details in booking form and validate the details displayed" time="10.28">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Fill all the fields with valid details from "ValidData" sheet...........passed
+And Click on Book Now.......................................................passed
+Then Success message with booking details in tabular format should appear...passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.1" time="8.638">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "name" field like "&%*@"..........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Name"........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.2" time="8.706">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "name" field like "1234"..........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Name"........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.3" time="8.88">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "name" field like "abc#!&"........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Name"........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.4" time="7.988">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "name" field like "abc123"........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Name"........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.5" time="8.315">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "name" field like ""..............................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Name"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.1" time="8.353">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "email" field like "abc123".......................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Email".......................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.2" time="9.622">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "email" field like "123&*^".......................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Email".......................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.3" time="8.21">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "email" field like "abc123@"......................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Email".......................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.4" time="8.628">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "email" field like "abc123@gmail".................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Email".......................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.5" time="7.946">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "email" field like "".............................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Email".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.1" time="8.405">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "phoneNo" field like "&%*@".......................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "phoneNo".....................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.2" time="8.03">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "phoneNo" field like "abc"........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "phoneNo".....................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.3" time="9.075">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "phoneNo" field like "123456789"..................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "phoneNo".....................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.4" time="8.488">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "phoneNo" field like "12345678921"................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "phoneNo".....................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.5" time="7.82">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "phoneNo" field like ""...........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "phoneNo".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate unselected select trip field (Long trip, Local trip)" time="8.038">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Do not select any option in select trip field...........................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Error message should appear for unselected "trip"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)" time="7.685">
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Leave cab type unselected...............................................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Error message should appear for unselected "cabtype"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.1" time="8.333">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "Date" field like "20/07/24"......................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Date"........................failed
+]]></system-out>
+</testcase>
+<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.2" time="8.751">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Navigate to url by launching the browser..............................passed
+When Click on Booking.......................................................passed
+And Enter invalid data in "Date" field like ""..............................passed
+And Fill remaining details..................................................passed
+And Click on Book Now.......................................................passed
+Then Booking should not happen due to invalid "Date"........................failed
+]]></system-out>
+</testcase>
+</testsuite>

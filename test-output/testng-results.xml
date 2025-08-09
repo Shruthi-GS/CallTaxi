@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T18:33:24Z" name="Default suite" finished-at="2025-08-08T18:33:32Z" duration-ms="7843">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T18:33:24Z" name="Default test" finished-at="2025-08-08T18:33:32Z" duration-ms="7843">
+      <class name="com.Hotel.API.tests.Add_user">
+        <test-method is-config="true" signature="authenticate()[pri:0, instance:com.Hotel.API.tests.Add_user@69c81773]" started-at="2025-08-08T18:33:24Z" name="authenticate" finished-at="2025-08-08T18:33:30Z" duration-ms="5381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method signature="addUser()[pri:0, instance:com.Hotel.API.tests.Add_user@69c81773]" started-at="2025-08-08T18:33:30Z" name="addUser" finished-at="2025-08-08T18:33:32Z" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- com.Hotel.API.tests.Add_user -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

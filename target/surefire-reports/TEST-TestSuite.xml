@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="207.373" tests="24" errors="0" skipped="0" failures="14">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\eclipse-workspace\CallTaxiService\target\test-classes;C:\Users\Admin\eclipse-workspace\CallTaxiService\target\classes;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\net\masterthought\cucumber-reporting\3.20.0\cucumber-reporting-3.20.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\Admin\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Admin\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10\joda-time-2.10.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Admin\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20180219.1\owasp-java-html-sanitizer-20180219.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Admin\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.1.0\gherkin-26.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-testng\7.12.1\cucumber-testng-7.12.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Admin\.m2\repository\au\com\bytecode\opencsv\2.4\opencsv-2.4.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\Admin\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire14575926335769207474\surefirebooter-20250803124400420_3.jar C:\Users\Admin\AppData\Local\Temp\surefire14575926335769207474 2025-08-03T12-44-00_163-jvmRun1 surefire-20250803124400420_1tmp surefire_0-20250803124400420_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-workspace\CallTaxiService\target\test-classes;C:\Users\Admin\eclipse-workspace\CallTaxiService\target\classes;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\net\masterthought\cucumber-reporting\3.20.0\cucumber-reporting-3.20.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\Admin\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Admin\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10\joda-time-2.10.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Admin\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20180219.1\owasp-java-html-sanitizer-20180219.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Admin\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.1.0\gherkin-26.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-testng\7.12.1\cucumber-testng-7.12.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Admin\.m2\repository\au\com\bytecode\opencsv\2.4\opencsv-2.4.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\Admin\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\eclipse-workspace\CallTaxiService"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire14575926335769207474\surefirebooter-20250803124400420_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\CallTaxiService"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/Admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate the cab type links&quot;, &quot;Service Cab Type links functionality&quot;](1)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="10.769">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+
+@Services @TC_SERV_001
+Scenario Outline: Validate the cab type links        &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/ServiceLinks.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to the url by launching the browser&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.navigate_to_the_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:13.596 [main] - Services link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Services&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_Services()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the presence of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mini"&amp#27;[0m&amp#27;[32m link&amp#27;[0m             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_presence_of_links(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mini"&amp#27;[0m&amp#27;[32m label&amp#27;[0m                        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_labels(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mini"&amp#27;[0m&amp#27;[32m cab type link&amp#27;[0m                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_cab_type_link(java.lang.String)&amp#27;[0m
+[INFO ] 2025-08-03 12:44:14.044 [main] - Mini details displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify the details displayed for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mini"&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_details_displayed_for(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the cab type links&quot;, &quot;Service Cab Type links functionality&quot;](2)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.614">
+    <system-out><![CDATA[
+@Services @TC_SERV_001
+Scenario Outline: Validate the cab type links        &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/ServiceLinks.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to the url by launching the browser&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.navigate_to_the_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:21.334 [main] - Services link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Services&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_Services()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the presence of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Micro"&amp#27;[0m&amp#27;[32m link&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_presence_of_links(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Micro"&amp#27;[0m&amp#27;[32m label&amp#27;[0m                       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_labels(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Micro"&amp#27;[0m&amp#27;[32m cab type link&amp#27;[0m                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_cab_type_link(java.lang.String)&amp#27;[0m
+[INFO ] 2025-08-03 12:44:21.742 [main] - Micro details displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify the details displayed for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Micro"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_details_displayed_for(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the cab type links&quot;, &quot;Service Cab Type links functionality&quot;](3)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.236">
+    <system-out><![CDATA[
+@Services @TC_SERV_001
+Scenario Outline: Validate the cab type links        &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/ServiceLinks.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to the url by launching the browser&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.navigate_to_the_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:28.570 [main] - Services link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Services&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_Services()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the presence of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sedan"&amp#27;[0m&amp#27;[32m link&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_presence_of_links(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sedan"&amp#27;[0m&amp#27;[32m label&amp#27;[0m                       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_labels(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sedan"&amp#27;[0m&amp#27;[32m cab type link&amp#27;[0m                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_cab_type_link(java.lang.String)&amp#27;[0m
+[INFO ] 2025-08-03 12:44:28.984 [main] - Sedan details displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify the details displayed for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sedan"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_details_displayed_for(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the cab type links&quot;, &quot;Service Cab Type links functionality&quot;](4)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.473">
+    <system-out><![CDATA[
+@Services @TC_SERV_001
+Scenario Outline: Validate the cab type links        &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/ServiceLinks.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to the url by launching the browser&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.navigate_to_the_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:36.041 [main] - Services link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Services&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_Services()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the presence of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Suv"&amp#27;[0m&amp#27;[32m link&amp#27;[0m              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_presence_of_links(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Suv"&amp#27;[0m&amp#27;[32m label&amp#27;[0m                         &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_labels(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Suv"&amp#27;[0m&amp#27;[32m cab type link&amp#27;[0m                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.click_on_cab_type_link(java.lang.String)&amp#27;[0m
+[INFO ] 2025-08-03 12:44:36.418 [main] - Suv details displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify the details displayed for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Suv"&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.ServiceLinksTest.Verify_the_details_displayed_for(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Enter valid details in booking form and validate the details displayed&quot;, &quot;Book a taxi functionality&quot;](5)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="10.286">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_001
+Scenario: Enter valid details in booking form and validate the details displayed &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:44.342 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                                          &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill all the fields with valid details from &amp#27;[0m&amp#27;[32m&amp#27;[1m"ValidData"&amp#27;[0m&amp#27;[32m sheet&amp#27;[0m              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_all_the_fields_with_valid_details_from_sheet(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                                          &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:46.666 [main] - Booking confirmed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mSuccess message with booking details in tabular format should appear&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.success_message_with_booking_details_in_tabular_format_should_appear()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid characters in Name field&quot;, &quot;Book a taxi functionality&quot;](6)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.661">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_002
+Scenario Outline: Validate invalid characters in Name field &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:44:54.061 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"name"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"&%*@"&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email                    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:44:55.420 [main] - No error message for invalid Name entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Name"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid characters in Name field&quot;, &quot;Book a taxi functionality&quot;](7)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.711">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_002
+Scenario Outline: Validate invalid characters in Name field &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:02.573 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"name"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email                    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:04.143 [main] - No error message for invalid Name entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Name"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid characters in Name field&quot;, &quot;Book a taxi functionality&quot;](8)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.88">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_002
+Scenario Outline: Validate invalid characters in Name field &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:11.755 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"name"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc#!&"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email                    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:13.067 [main] - No error message for invalid Name entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Name"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid characters in Name field&quot;, &quot;Book a taxi functionality&quot;](9)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.994">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_002
+Scenario Outline: Validate invalid characters in Name field &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:19.741 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"name"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email                    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:21.024 [main] - No error message for invalid Name entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Name"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid characters in Name field&quot;, &quot;Book a taxi functionality&quot;](10)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.318">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_002
+Scenario Outline: Validate invalid characters in Name field &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:28.216 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"name"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email                    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:29.351 [main] - Error message displayed for blank Name entry!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBooking should not happen due to invalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid email format&quot;, &quot;Book a taxi functionality&quot;](11)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.355">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_003
+Scenario Outline: Validate invalid email format         &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:36.459 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"email"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:37.747 [main] - No error message for invalid Email entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Email"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid email format&quot;, &quot;Book a taxi functionality&quot;](12)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="9.629">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_003
+Scenario Outline: Validate invalid email format         &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:46.197 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"email"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"123&*^"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:47.383 [main] - No error message for invalid Email entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Email"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid email format&quot;, &quot;Book a taxi functionality&quot;](13)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.212">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_003
+Scenario Outline: Validate invalid email format          &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m         &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:45:54.177 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"email"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123@"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:45:55.544 [main] - No error message for invalid Email entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Email"&amp#27;[0m  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid email format&quot;, &quot;Book a taxi functionality&quot;](14)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.634">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_003
+Scenario Outline: Validate invalid email format               &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:02.712 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"email"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc123@gmail"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:46:04.174 [main] - No error message for invalid Email entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Email"&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid email format&quot;, &quot;Book a taxi functionality&quot;](15)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.952">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_003
+Scenario Outline: Validate invalid email format         &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:10.905 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"email"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | PhoneNo    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | 1234567890 | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:12.113 [main] - Error message displayed for blank Email entry!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBooking should not happen due to invalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"Email"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid phone number format&quot;, &quot;Book a taxi functionality&quot;](16)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.406">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_004
+Scenario Outline: Validate invalid phone number format    &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m          &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:19.353 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"&%*@"&amp#27;[0m   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:46:20.550 [main] - No error message for invalid phoneNo entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"phoneNo"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid phone number format&quot;, &quot;Book a taxi functionality&quot;](17)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.036">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_004
+Scenario Outline: Validate invalid phone number format    &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m          &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:27.439 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc"&amp#27;[0m    &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:46:28.612 [main] - No error message for invalid phoneNo entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"phoneNo"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid phone number format&quot;, &quot;Book a taxi functionality&quot;](18)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="9.075">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_004
+Scenario Outline: Validate invalid phone number format       &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:36.466 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456789"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:46:37.701 [main] - No error message for invalid phoneNo entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"phoneNo"&amp#27;[0m    &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid phone number format&quot;, &quot;Book a taxi functionality&quot;](19)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.491">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_004
+Scenario Outline: Validate invalid phone number format         &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m               &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:44.748 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678921"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:46:46.133 [main] - No error message for invalid phoneNo entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"phoneNo"&amp#27;[0m      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid phone number format&quot;, &quot;Book a taxi functionality&quot;](20)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.823">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_004
+Scenario Outline: Validate invalid phone number format    &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m          &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:52.853 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PassengerCount | Trip       | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1              | local trip | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:46:54.016 [main] - Error message displayed for blank phoneNo entry!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBooking should not happen due to invalid &amp#27;[0m&amp#27;[32m&amp#27;[1m"phoneNo"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate unselected select trip field (Long trip, Local trip)&quot;, &quot;Book a taxi functionality&quot;](21)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.039">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_005
+Scenario: Validate unselected select trip field (Long trip, Local trip) &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m                        &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:00.607 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mDo not select any option in select trip field&amp#27;[0m                     &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.do_not_select_any_option_in_select_trip_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                            &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PhoneNo    | PassengerCount | CabType | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1234567890 | 1              | Mini    | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:01.885 [main] - Error message is displayed for unselected trip!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message should appear for unselected &amp#27;[0m&amp#27;[32m&amp#27;[1m"trip"&amp#27;[0m                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.error_message_should_appear_for_unselected(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)&quot;, &quot;Book a taxi functionality&quot;](22)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="7.69">
+    <system-out><![CDATA[
+@Booking @TC_BOOK_006
+Scenario: Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV) &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:72&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:08.678 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                                      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mLeave cab type unselected&amp#27;[0m                                              &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.leave_cab_type_unselected()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                                                 &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PhoneNo    | PassengerCount | Trip       | CarType | Date     | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1234567890 | 1              | local trip | Non-Ac  | 19/08/25 | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                                      &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:09.719 [main] - Error message is displayed for unselected cabtype!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message should appear for unselected &amp#27;[0m&amp#27;[32m&amp#27;[1m"cabtype"&amp#27;[0m                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.error_message_should_appear_for_unselected(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid date entry&quot;, &quot;Book a taxi functionality&quot;](23)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.336">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_007
+Scenario Outline: Validate invalid date entry            &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m         &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:16.644 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"Date"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m"20/07/24"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                             &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PhoneNo    | PassengerCount | CabType | Trip       | CarType | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1234567890 | 1              | Mini    | local trip | Non-Ac  | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                  &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:47:18.052 [main] - No error message for invalid Date entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Date"&amp#27;[0m   &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate invalid date entry&quot;, &quot;Book a taxi functionality&quot;](24)" classname="com.CallTaxiService.cucumber.runners.CucumberRunnerTests" time="8.752">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]></failure>
+    <system-out><![CDATA[
+@Booking @TC_BOOK_007
+Scenario Outline: Validate invalid date entry          &amp#27;[90m# src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:91&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to url by launching the browser&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.navigate_to_url_by_launching_the_browser()&amp#27;[0m
+[INFO ] 2025-08-03 12:47:25.335 [main] - Booking link launched
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick on Booking&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_booking()&amp#27;[0m
+Date parsing failed: Unsupported date format
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid data in &amp#27;[0m&amp#27;[32m&amp#27;[1m"Date"&amp#27;[0m&amp#27;[32m field like &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m       &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.enter_invalid_data_in_field_like(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFill remaining details&amp#27;[0m                           &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.fill_remaining_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Name    | Email                    | PhoneNo    | PassengerCount | CabType | Trip       | CarType | Time  | TripType |
+    | shruthi | Shruthi.GS@cognizant.com | 1234567890 | 1              | Mini    | local trip | Non-Ac  | 10:00 | one way  |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Book Now&amp#27;[0m                                &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.click_on_book_now()&amp#27;[0m
+[ERROR] 2025-08-03 12:47:26.721 [main] - No error message for invalid Date entry!
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mBooking should not happen due to invalid &amp#27;[0m&amp#27;[31m&amp#27;[1m"Date"&amp#27;[0m &amp#27;[90m# com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 207.4 s <<< FAILURE! -- in TestSuite
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid characters in Name field", "Book a taxi functionality"](6) -- Time elapsed: 8.661 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid characters in Name field", "Book a taxi functionality"](7) -- Time elapsed: 8.711 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid characters in Name field", "Book a taxi functionality"](8) -- Time elapsed: 8.880 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid characters in Name field", "Book a taxi functionality"](9) -- Time elapsed: 7.994 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid email format", "Book a taxi functionality"](11) -- Time elapsed: 8.355 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid email format", "Book a taxi functionality"](12) -- Time elapsed: 9.629 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid email format", "Book a taxi functionality"](13) -- Time elapsed: 8.212 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid email format", "Book a taxi functionality"](14) -- Time elapsed: 8.634 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid phone number format", "Book a taxi functionality"](16) -- Time elapsed: 8.406 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid phone number format", "Book a taxi functionality"](17) -- Time elapsed: 8.036 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid phone number format", "Book a taxi functionality"](18) -- Time elapsed: 9.075 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid phone number format", "Book a taxi functionality"](19) -- Time elapsed: 8.491 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid date entry", "Book a taxi functionality"](23) -- Time elapsed: 8.336 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+
+com.CallTaxiService.cucumber.runners.CucumberRunnerTests.runScenario["Validate invalid date entry", "Book a taxi functionality"](24) -- Time elapsed: 8.752 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+	at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+

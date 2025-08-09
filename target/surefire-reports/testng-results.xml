@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="10" failed="14" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-03T07:14:02Z" name="Suite" finished-at="2025-08-03T07:17:28Z" duration-ms="206531">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-03T07:14:02Z" name="Test" finished-at="2025-08-03T07:17:28Z" duration-ms="206531">
+      <class name="com.CallTaxiService.cucumber.runners.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:02Z" name="setUpClass" finished-at="2025-08-03T07:14:04Z" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2fedfff1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:15Z" duration-ms="10769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the cab type links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service Cab Type links functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:22Z" duration-ms="7622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the cab type links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service Cab Type links functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:30Z" duration-ms="7233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the cab type links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service Cab Type links functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:37Z" duration-ms="7473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the cab type links"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Service Cab Type links functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:47Z" duration-ms="10284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter valid details in booking form and validate the details displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:14:56Z" duration-ms="8656" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid characters in Name field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:14:56Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:05Z" duration-ms="8718" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid characters in Name field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:14Z" duration-ms="8884" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid characters in Name field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:14Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:22Z" duration-ms="7992" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid characters in Name field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:30Z" duration-ms="8320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid characters in Name field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:38Z" duration-ms="8354" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:48Z" duration-ms="9627" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:15:56Z" duration-ms="8212" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:15:56Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:05Z" duration-ms="8632" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:13Z" duration-ms="7947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:13Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:21Z" duration-ms="8406" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid phone number format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:29Z" duration-ms="8034" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid phone number format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:38Z" duration-ms="9077" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid phone number format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:47Z" duration-ms="8488" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid phone number format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:16:55Z" duration-ms="7826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid phone number format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:16:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:17:03Z" duration-ms="8041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate unselected select trip field (Long trip, Local trip)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:17:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:17:10Z" duration-ms="7690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:17:10Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:17:19Z" duration-ms="8336" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid date entry"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:17:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-03T07:17:27Z" duration-ms="8752" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid date entry"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book a taxi functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
+at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@6dbb137d]" started-at="2025-08-03T07:17:27Z" name="tearDownClass" finished-at="2025-08-03T07:17:28Z" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.CallTaxiService.cucumber.runners.CucumberRunnerTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
