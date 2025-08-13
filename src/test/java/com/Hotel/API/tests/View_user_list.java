@@ -14,12 +14,13 @@ public class View_user_list extends Base{
 	 SoftAssert softAssert = new SoftAssert();
 	@Test
 	public void viewUserList() {
+		System.out.println("------------------VIEW_USER_LIST---------------------\n");
 	    Response response = requestSpec()
 	            .when()
 	            .get("/viewUserList");
 
 	    System.out.println("Response Body for VIEW_USER_LIST:\n" + response.getBody().asPrettyString());
-	    System.out.println("---------------------------------------------------------------------");	    
+	    System.out.println("\n***********************************************************************\n");	    
 	    validateBasicJsonResponse(response, 200);
 	    
 	    if (response.getContentType().contains("json")) {

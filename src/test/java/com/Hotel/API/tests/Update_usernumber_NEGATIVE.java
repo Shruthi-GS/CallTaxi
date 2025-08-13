@@ -17,15 +17,16 @@ public class Update_usernumber_NEGATIVE extends Base {
 	public void updateUserNumber_Negative() {
 	int userId = Configuration.userId2;
     String phoneNumber = Configuration.phoneNumber;
-
+    System.out.println("------------------UPDATE_USERNUMBER---------------------\n");
     Response response = requestSpec()
+    		.log().all()
             .contentType("application/x-www-form-urlencoded")
             .formParam("userId", userId)
             .formParam("phoneNumber", phoneNumber)
             .when()
             .put("/updateUserNumber");
     System.out.println("Response Body for UPDATE_USERNUMBER:\n" + response.getBody().asPrettyString());
-    System.out.println("---------------------------------------------------------------------");
+    System.out.println("\n***********************************************************************\n");
     validateBasicJsonResponse(response, 404);
     
     try {

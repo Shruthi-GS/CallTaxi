@@ -18,13 +18,13 @@ public class View_user_by_gender extends Base{
 	@Test
 	public void viewUserByGender_Positive() {
 	  String gender = Configuration.validGender;
-
+	  System.out.println("------------------VIEW_USER_BY_GENDER---------------------\n");
 	    Response response = requestSpec()
 	            .when()
 	            .get("/viewUserByGender/" + gender);
 
 	    System.out.println("Response Body for VIEW_USER_BY_GENDER:\n" + response.getBody().asPrettyString());
-	    System.out.println("---------------------------------------------------------------------");
+	    System.out.println("\n***********************************************************************\n");
 	    validateBasicJsonResponse(response, 200);
 	    
 	    List<String> genders = response.jsonPath().getList("gender");

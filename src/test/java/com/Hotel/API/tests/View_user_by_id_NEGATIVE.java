@@ -15,11 +15,13 @@ public class View_user_by_id_NEGATIVE extends Base{
 	int userId = Configuration.userId1;
     @Test
     public void viewUserById_Negative() {
+    System.out.println("------------------VIEW_USER_BY_ID---------------------\n");
 	 Response response = requestSpec()
+			 .log().all()
              .when()
              .get("/viewUserById/" + userId);
 	 System.out.println("Response Body for VIEW_USER_BY_ID:\n" + response.getBody().asPrettyString());
-	    System.out.println("---------------------------------------------------------------------");	    
+	 System.out.println("\n***********************************************************************\n");	    
 	 validateBasicJsonResponse(response, 404);
 	 try {
          Integer returnedId = response.jsonPath().getInt("userId");

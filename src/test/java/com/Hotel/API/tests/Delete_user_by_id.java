@@ -16,13 +16,13 @@ public class Delete_user_by_id extends Base{
 	@Test
 	public void deleteUserById_Positive() {
 	    int deletedUserId = Configuration.userId3;
-
+	    System.out.println("------------------DELETE_USER---------------------\n");
 	    Response response = requestSpec()
 	            .when()
 	            .delete("/deleteUserById/" + deletedUserId);
 	    
 	    System.out.println("Response Body for DELETE_USER:\n" + response.getBody().asPrettyString());
-	    System.out.println("---------------------------------------------------------------------");
+	    System.out.println("\n***********************************************************************\n");
 	    validateBasicJsonResponse(response, 200);
 	    
 	    try {

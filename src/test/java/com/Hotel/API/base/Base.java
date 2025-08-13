@@ -83,7 +83,7 @@ public class Base {
         }
         Assert.assertNotNull(authCode, "Auth code should not be null");
 
-	    System.out.println("---------------------------------------------------------------------");
+        System.out.println("\n***********************************************************************\n");
 
         accessToken = given()
                 .header("Accept", "application/json")
@@ -107,7 +107,7 @@ public class Base {
         }
         Assert.assertNotNull(accessToken, "Access token should not be null");
 
-	    System.out.println("---------------------------------------------------------------------");
+        System.out.println("\n***********************************************************************\n");
 	    }
 
     public RequestSpecification requestSpec() {

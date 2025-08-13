@@ -1,625 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="10" failed="14" skipped="0">
+<testng-results ignored="18" total="25" passed="4" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T07:41:04Z" name="Suite" finished-at="2025-08-12T07:43:50Z" duration-ms="166508">
+  <suite started-at="2025-08-13T05:32:45Z" name="Suite" finished-at="2025-08-13T05:32:51Z" duration-ms="6160">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-12T07:41:04Z" name="Test" finished-at="2025-08-12T07:43:50Z" duration-ms="166508">
-      <class name="com.CallTaxiService.cucumber.runners.CucumberRunnerTests">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:04Z" name="setUpClass" finished-at="2025-08-12T07:41:06Z" duration-ms="1692" status="PASS">
+    <test started-at="2025-08-13T05:32:45Z" name="Test" finished-at="2025-08-13T05:32:51Z" duration-ms="6160">
+      <class name="com.Hotel.API.tests.View_user_by_gender">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.View_user_by_gender@647e447]" started-at="2025-08-13T05:32:50Z" name="startTest" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30407f28]]>
+                <![CDATA[public void com.Hotel.API.tests.View_user_by_gender.viewUserByGender_Positive()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:15Z" duration-ms="9687" status="PASS">
+        </test-method> <!-- startTest -->
+        <test-method signature="viewUserByGender_Positive()[pri:0, instance:com.Hotel.API.tests.View_user_by_gender@647e447]" started-at="2025-08-13T05:32:50Z" name="viewUserByGender_Positive" finished-at="2025-08-13T05:32:50Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewUserByGender_Positive -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.View_user_by_gender@647e447]" started-at="2025-08-13T05:32:50Z" name="tearDown" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate the cab type links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Service Cab Type links functionality"]]>
+                <![CDATA[[TestResult name=viewUserByGender_Positive status=SUCCESS method=View_user_by_gender.viewUserByGender_Positive()[pri:0, instance:com.Hotel.API.tests.View_user_by_gender@647e447] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:21Z" duration-ms="6041" status="PASS">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.View_user_by_gender -->
+      <class name="com.Hotel.API.tests.View_user_by_id_NEGATIVE">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.View_user_by_id_NEGATIVE@3c407114]" started-at="2025-08-13T05:32:50Z" name="startTest" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate the cab type links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Service Cab Type links functionality"]]>
+                <![CDATA[public void com.Hotel.API.tests.View_user_by_id_NEGATIVE.viewUserById_Negative()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:27Z" duration-ms="5765" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the cab type links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Service Cab Type links functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:34Z" duration-ms="6580" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the cab type links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Service Cab Type links functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:41Z" duration-ms="7362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Enter valid details in booking form and validate the details displayed"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:48Z" duration-ms="7131" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid characters in Name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewUserById_Negative()[pri:0, instance:com.Hotel.API.tests.View_user_by_id_NEGATIVE@3c407114]" started-at="2025-08-13T05:32:50Z" name="viewUserById_Negative" finished-at="2025-08-13T05:32:50Z" duration-ms="139" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[The following asserts failed:
+Response is not valid JSON]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Response is not valid JSON
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Hotel.API.tests.View_user_by_id_NEGATIVE.viewUserById_Negative(View_user_by_id_NEGATIVE.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:41:55Z" duration-ms="6762" status="FAIL">
+        </test-method> <!-- viewUserById_Negative -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.View_user_by_id_NEGATIVE@3c407114]" started-at="2025-08-13T05:32:50Z" name="tearDown" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid characters in Name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[[TestResult name=viewUserById_Negative status=FAILURE method=View_user_by_id_NEGATIVE.viewUserById_Negative()[pri:0, instance:com.Hotel.API.tests.View_user_by_id_NEGATIVE@3c407114] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[The following asserts failed:
+Status code should be 404 expected [404] but found [204],
+Content-Type should be application/json expected [true] but found [false],
+Response body should not be empty expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Status code should be 404 expected [404] but found [204],
+Content-Type should be application/json expected [true] but found [false],
+Response body should not be empty expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Hotel.API.base.Base.tearDown(Base.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:41:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:01Z" duration-ms="6490" status="FAIL">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.View_user_by_id_NEGATIVE -->
+      <class name="com.Hotel.API.tests.View_user_by_gender_NEGATIVE">
+        <test-method signature="viewUserByGender_Negative()[pri:0, instance:com.Hotel.API.tests.View_user_by_gender_NEGATIVE@41fbdac4]" started-at="2025-08-13T05:32:50Z" name="viewUserByGender_Negative" finished-at="2025-08-13T05:32:50Z" duration-ms="222" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Gender list should not be empty expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Gender list should not be empty expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Hotel.API.tests.View_user_by_gender_NEGATIVE.viewUserByGender_Negative(View_user_by_gender_NEGATIVE.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewUserByGender_Negative -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.View_user_by_gender_NEGATIVE@41fbdac4]" started-at="2025-08-13T05:32:50Z" name="startTest" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid characters in Name field"]]>
+                <![CDATA[public void com.Hotel.API.tests.View_user_by_gender_NEGATIVE.viewUserByGender_Negative()]]>
               </value>
             </param>
-            <param index="1">
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.View_user_by_gender_NEGATIVE@41fbdac4]" started-at="2025-08-13T05:32:50Z" name="tearDown" finished-at="2025-08-13T05:32:50Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
               <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[[TestResult name=viewUserByGender_Negative status=FAILURE method=View_user_by_gender_NEGATIVE.viewUserByGender_Negative()[pri:0, instance:com.Hotel.API.tests.View_user_by_gender_NEGATIVE@41fbdac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.View_user_by_gender_NEGATIVE -->
+      <class name="com.Hotel.API.tests.Update_usernumber_NEGATIVE">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.Update_usernumber_NEGATIVE@35ef1869]" started-at="2025-08-13T05:32:50Z" name="startTest" finished-at="2025-08-13T05:32:50Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Hotel.API.tests.Update_usernumber_NEGATIVE.updateUserNumber_Negative()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="updateUserNumber_Negative()[pri:0, instance:com.Hotel.API.tests.Update_usernumber_NEGATIVE@35ef1869]" started-at="2025-08-13T05:32:50Z" name="updateUserNumber_Negative" finished-at="2025-08-13T05:32:51Z" duration-ms="278" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+User ID 10 should exist expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+User ID 10 should exist expected object to not be null
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Hotel.API.tests.Update_usernumber_NEGATIVE.updateUserNumber_Negative(Update_usernumber_NEGATIVE.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNumber_Negative -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.Update_usernumber_NEGATIVE@35ef1869]" started-at="2025-08-13T05:32:51Z" name="tearDown" finished-at="2025-08-13T05:32:51Z" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateUserNumber_Negative status=FAILURE method=Update_usernumber_NEGATIVE.updateUserNumber_Negative()[pri:0, instance:com.Hotel.API.tests.Update_usernumber_NEGATIVE@35ef1869] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[The following asserts failed:
+Status code should be 404 expected [404] but found [200]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Status code should be 404 expected [404] but found [200]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.Hotel.API.base.Base.tearDown(Base.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:08Z" duration-ms="6754" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid characters in Name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Name"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:22)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.Update_usernumber_NEGATIVE -->
+      <class name="com.Hotel.API.tests.Add_user">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:44Z" name="beforeAll" finished-at="2025-08-13T05:32:45Z" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:15Z" duration-ms="6374" status="PASS">
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="authenticate()[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:45Z" name="authenticate" finished-at="2025-08-13T05:32:48Z" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:48Z" name="startTest" finished-at="2025-08-13T05:32:48Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid characters in Name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[public void com.Hotel.API.tests.Add_user.addUser()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:21Z" duration-ms="6826" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- startTest -->
+        <test-method signature="addUser()[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:48Z" name="addUser" finished-at="2025-08-13T05:32:50Z" duration-ms="1459" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:28Z" duration-ms="6644" status="FAIL">
+        </test-method> <!-- addUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:50Z" name="tearDown" finished-at="2025-08-13T05:32:50Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:35Z" duration-ms="6446" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:41Z" duration-ms="6775" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Email"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:48Z" duration-ms="6613" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[[TestResult name=addUser status=SUCCESS method=Add_user.addUser()[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:42:55Z" duration-ms="7281" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid phone number format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:com.Hotel.API.tests.Add_user@1cbbffcd]" started-at="2025-08-13T05:32:51Z" name="afterAll" finished-at="2025-08-13T05:32:51Z" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:42:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:03Z" duration-ms="7559" status="FAIL">
+        </test-method> <!-- afterAll -->
+      </class> <!-- com.Hotel.API.tests.Add_user -->
+      <class name="com.Hotel.API.tests.View_user_list">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.View_user_list@3427b02d]" started-at="2025-08-13T05:32:50Z" name="startTest" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid phone number format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:09Z" duration-ms="6703" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid phone number format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:16Z" duration-ms="6961" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid phone number format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "phoneNo"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:54)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:23Z" duration-ms="6495" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid phone number format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[public void com.Hotel.API.tests.View_user_list.viewUserList()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:29Z" duration-ms="6480" status="PASS">
+        </test-method> <!-- startTest -->
+        <test-method signature="viewUserList()[pri:0, instance:com.Hotel.API.tests.View_user_list@3427b02d]" started-at="2025-08-13T05:32:50Z" name="viewUserList" finished-at="2025-08-13T05:32:50Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewUserList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.View_user_list@3427b02d]" started-at="2025-08-13T05:32:50Z" name="tearDown" finished-at="2025-08-13T05:32:50Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate unselected select trip field (Long trip, Local trip)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[[TestResult name=viewUserList status=SUCCESS method=View_user_list.viewUserList()[pri:0, instance:com.Hotel.API.tests.View_user_list@3427b02d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:36Z" duration-ms="6826" status="PASS">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.View_user_list -->
+      <class name="com.Hotel.API.tests.Delete_user_by_id">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Hotel.API.tests.Delete_user_by_id@c33b74f]" started-at="2025-08-13T05:32:51Z" name="startTest" finished-at="2025-08-13T05:32:51Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[public void com.Hotel.API.tests.Delete_user_by_id.deleteUserById_Positive()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:43Z" duration-ms="6982" status="FAIL">
+        </test-method> <!-- startTest -->
+        <test-method signature="deleteUserById_Positive()[pri:0, instance:com.Hotel.API.tests.Delete_user_by_id@c33b74f]" started-at="2025-08-13T05:32:51Z" name="deleteUserById_Positive" finished-at="2025-08-13T05:32:51Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserById_Positive -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Hotel.API.tests.Delete_user_by_id@c33b74f]" started-at="2025-08-13T05:32:51Z" name="tearDown" finished-at="2025-08-13T05:32:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate invalid date entry"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
+                <![CDATA[[TestResult name=deleteUserById_Positive status=SUCCESS method=Delete_user_by_id.deleteUserById_Positive()[pri:0, instance:com.Hotel.API.tests.Delete_user_by_id@c33b74f] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-12T07:43:50Z" duration-ms="6815" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate invalid date entry"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Book a taxi functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [false] but found [true]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertFalse(Assert.java:65)
-at org.testng.Assert.assertFalse(Assert.java:75)
-at com.CallTaxiService.cucumber.stepDefinitions.BookingFormTest.Booking_should_not_happen_due_to_invalid(BookingFormTest.java:62)
-at ✽.Booking should not happen due to invalid "Date"(file:///C:/Users/Admin/eclipse-workspace/CallTaxiService/./src/test/java/com/CallTaxiService/cucumber/features/bookingForm.feature:87)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.CallTaxiService.cucumber.runners.CucumberRunnerTests@130161f7]" started-at="2025-08-12T07:43:50Z" name="tearDownClass" finished-at="2025-08-12T07:43:50Z" duration-ms="379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.CallTaxiService.cucumber.runners.CucumberRunnerTests -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hotel.API.tests.Delete_user_by_id -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
