@@ -1,0 +1,48 @@
+[INFO ] 2025-08-12 13:11:14.469 [main] Hooks - Services link launched
+[INFO ] 2025-08-12 13:11:14.686 [main] Hooks - Mini details displayed
+[INFO ] 2025-08-12 13:11:20.566 [main] Hooks - Services link launched
+[INFO ] 2025-08-12 13:11:20.832 [main] Hooks - Micro details displayed
+[INFO ] 2025-08-12 13:11:26.403 [main] Hooks - Services link launched
+[INFO ] 2025-08-12 13:11:26.646 [main] Hooks - Sedan details displayed
+[INFO ] 2025-08-12 13:11:33.084 [main] Hooks - Services link launched
+[INFO ] 2025-08-12 13:11:33.304 [main] Hooks - Suv details displayed
+[INFO ] 2025-08-12 13:11:38.817 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:11:40.687 [main] Hooks - Booking confirmed
+[INFO ] 2025-08-12 13:11:46.611 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:11:47.791 [main] Hooks - No error message for invalid Name entry!
+[INFO ] 2025-08-12 13:11:53.389 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:11:54.572 [main] Hooks - No error message for invalid Name entry!
+[INFO ] 2025-08-12 13:12:00.043 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:01.066 [main] Hooks - No error message for invalid Name entry!
+[INFO ] 2025-08-12 13:12:06.693 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:07.814 [main] Hooks - No error message for invalid Name entry!
+[INFO ] 2025-08-12 13:12:13.272 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:12:14.196 [main] Hooks - Error message displayed for blank Name entry!
+[INFO ] 2025-08-12 13:12:19.893 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:21.040 [main] Hooks - No error message for invalid Email entry!
+[INFO ] 2025-08-12 13:12:26.582 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:27.688 [main] Hooks - No error message for invalid Email entry!
+[INFO ] 2025-08-12 13:12:33.069 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:34.130 [main] Hooks - No error message for invalid Email entry!
+[INFO ] 2025-08-12 13:12:39.887 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:40.876 [main] Hooks - No error message for invalid Email entry!
+[INFO ] 2025-08-12 13:12:46.552 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:12:47.512 [main] Hooks - Error message displayed for blank Email entry!
+[INFO ] 2025-08-12 13:12:53.779 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:12:54.776 [main] Hooks - No error message for invalid phoneNo entry!
+[INFO ] 2025-08-12 13:13:01.324 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:13:02.362 [main] Hooks - No error message for invalid phoneNo entry!
+[INFO ] 2025-08-12 13:13:07.906 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:13:09.042 [main] Hooks - No error message for invalid phoneNo entry!
+[INFO ] 2025-08-12 13:13:14.963 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:13:16.025 [main] Hooks - No error message for invalid phoneNo entry!
+[INFO ] 2025-08-12 13:13:21.630 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:13:22.510 [main] Hooks - Error message displayed for blank phoneNo entry!
+[INFO ] 2025-08-12 13:13:28.200 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:13:28.996 [main] Hooks - Error message is displayed for unselected trip!
+[INFO ] 2025-08-12 13:13:34.823 [main] Hooks - Booking link launched
+[INFO ] 2025-08-12 13:13:35.845 [main] Hooks - Error message is displayed for unselected cabtype!
+[INFO ] 2025-08-12 13:13:41.680 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:13:42.796 [main] Hooks - No error message for invalid Date entry!
+[INFO ] 2025-08-12 13:13:48.574 [main] Hooks - Booking link launched
+[ERROR] 2025-08-12 13:13:49.600 [main] Hooks - No error message for invalid Date entry!

@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Hotel.API.tests.Add_user">
+      <class name="com.Hotel.API.tests.Update_usernumber_NEGATIVE">
         <methods>
-          <include name="addUser"/>
+          <include name="startTest"/>
+          <include name="updateUserNumber_Negative"/>
+          <include name="beforeAll"/>
+          <include name="afterAll"/>
+          <include name="tearDown"/>
           <include name="authenticate"/>
         </methods>
-      </class> <!-- com.Hotel.API.tests.Add_user -->
+      </class> <!-- com.Hotel.API.tests.Update_usernumber_NEGATIVE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

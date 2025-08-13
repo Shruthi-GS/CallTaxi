@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="205.638" tests="24" skipped="0" failures="14" errors="0">
-<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.1" time="10.429">
+<testsuite name="Cucumber" time="165.792" tests="24" skipped="0" failures="14" errors="0">
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.1" time="9.512">
 <system-out><![CDATA[
 Given Navigate to the url by launching the browser..........................passed
 When Click on Services......................................................passed
@@ -10,7 +10,7 @@ And Click on "Mini" cab type link...........................................pass
 Then Verify the details displayed for "Mini"................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.2" time="7.604">
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.2" time="6.028">
 <system-out><![CDATA[
 Given Navigate to the url by launching the browser..........................passed
 When Click on Services......................................................passed
@@ -20,7 +20,7 @@ And Click on "Micro" cab type link..........................................pass
 Then Verify the details displayed for "Micro"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.3" time="7.231">
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.3" time="5.76">
 <system-out><![CDATA[
 Given Navigate to the url by launching the browser..........................passed
 When Click on Services......................................................passed
@@ -30,7 +30,7 @@ And Click on "Sedan" cab type link..........................................pass
 Then Verify the details displayed for "Sedan"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.4" time="7.468">
+<testcase classname="Service Cab Type links functionality" name="Validate the cab type links - Example #1.4" time="6.566">
 <system-out><![CDATA[
 Given Navigate to the url by launching the browser..........................passed
 When Click on Services......................................................passed
@@ -40,7 +40,7 @@ And Click on "Suv" cab type link............................................pass
 Then Verify the details displayed for "Suv".................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Enter valid details in booking form and validate the details displayed" time="10.28">
+<testcase classname="Book a taxi functionality" name="Enter valid details in booking form and validate the details displayed" time="7.359">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -49,7 +49,7 @@ And Click on Book Now.......................................................pass
 Then Success message with booking details in tabular format should appear...passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.1" time="8.638">
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.1" time="7.123">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -69,7 +69,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Name"........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.2" time="8.706">
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.2" time="6.762">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -89,7 +89,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Name"........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.3" time="8.88">
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.3" time="6.48">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -103,13 +103,13 @@ Then Booking should not happen due to invalid "Name"........................fail
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
-And Enter invalid data in "name" field like "abc#!&"........................passed
+And Enter invalid data in "name" field like "abc!&^"........................passed
 And Fill remaining details..................................................passed
 And Click on Book Now.......................................................passed
 Then Booking should not happen due to invalid "Name"........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.4" time="7.988">
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.4" time="6.744">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -129,7 +129,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Name"........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.5" time="8.315">
+<testcase classname="Book a taxi functionality" name="Validate invalid characters in Name field - Example #1.5" time="6.364">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -139,7 +139,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Name"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.1" time="8.353">
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.1" time="6.825">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -159,7 +159,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Email".......................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.2" time="9.622">
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.2" time="6.644">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -179,7 +179,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Email".......................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.3" time="8.21">
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.3" time="6.441">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -199,7 +199,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Email".......................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.4" time="8.628">
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.4" time="6.775">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -219,7 +219,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Email".......................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.5" time="7.946">
+<testcase classname="Book a taxi functionality" name="Validate invalid email format - Example #1.5" time="6.604">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -229,7 +229,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Email".......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.1" time="8.405">
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.1" time="7.269">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -249,7 +249,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "phoneNo".....................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.2" time="8.03">
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.2" time="7.557">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -269,7 +269,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "phoneNo".....................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.3" time="9.075">
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.3" time="6.702">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -289,7 +289,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "phoneNo".....................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.4" time="8.488">
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.4" time="6.952">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -309,7 +309,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "phoneNo".....................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.5" time="7.82">
+<testcase classname="Book a taxi functionality" name="Validate invalid phone number format - Example #1.5" time="6.493">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -319,7 +319,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "phoneNo".....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate unselected select trip field (Long trip, Local trip)" time="8.038">
+<testcase classname="Book a taxi functionality" name="Validate unselected select trip field (Long trip, Local trip)" time="6.48">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -329,7 +329,7 @@ And Click on Book Now.......................................................pass
 Then Error message should appear for unselected "trip"......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)" time="7.685">
+<testcase classname="Book a taxi functionality" name="Validate unselected Cab type dropdown field (Mini,Micro,Sedan,SUV)" time="6.814">
 <system-out><![CDATA[
 Given Navigate to url by launching the browser..............................passed
 When Click on Booking.......................................................passed
@@ -339,7 +339,7 @@ And Click on Book Now.......................................................pass
 Then Error message should appear for unselected "cabtype"...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.1" time="8.333">
+<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.1" time="6.982">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -359,7 +359,7 @@ And Click on Book Now.......................................................pass
 Then Booking should not happen due to invalid "Date"........................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.2" time="8.751">
+<testcase classname="Book a taxi functionality" name="Validate invalid date entry - Example #1.2" time="6.814">
 <failure type="java.lang.AssertionError" message="expected [false] but found [true]">
 <![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)

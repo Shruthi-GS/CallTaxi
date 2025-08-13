@@ -58,11 +58,11 @@ public class ExcelReader {
             Row headerRow = sheet.getRow(0);
             Row dataRow = sheet.getRow(rowNumber);
 
-            DataFormatter formatter = new DataFormatter(); // handles numeric-to-string conversion
+            DataFormatter formatter = new DataFormatter(); 
 
             for (int i = 0; i < headerRow.getLastCellNum(); i++) {
                 String key = formatter.formatCellValue(headerRow.getCell(i));
-                String value = formatter.formatCellValue(dataRow.getCell(i)); // works for both String and Numeric
+                String value = formatter.formatCellValue(dataRow.getCell(i));
                 data.put(key, value);
             }
         } catch (Exception e) {

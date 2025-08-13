@@ -5,11 +5,10 @@
       <class name="com.Hotel.API.tests.Add_user"/>
 	  <class name="com.Hotel.API.tests.View_user_list"/>
       <class name="com.Hotel.API.tests.View_user_by_gender"/>
-      <class name="com.Hotel.API.tests.Delete_user_by_id"/>
       <class name="com.Hotel.API.tests.View_user_by_gender_NEGATIVE"/>
       <class name="com.Hotel.API.tests.View_user_by_id_NEGATIVE"/>
       <class name="com.Hotel.API.tests.Update_usernumber_NEGATIVE"/>
-      <!-- Add more <class> entries as needed -->
+      <class name="com.Hotel.API.tests.Delete_user_by_id"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+</suite>
